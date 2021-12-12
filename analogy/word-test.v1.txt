@@ -1,5 +1,3 @@
-// Copyright 2013 Google Inc. All Rights Reserved.
-: capital-common-countries
 Athens Greece Baghdad Iraq
 Athens Greece Bangkok Thailand
 Athens Greece Beijing China
