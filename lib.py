@@ -54,14 +54,14 @@ def preprocess_txt(input_df: pd.DataFrame):
         words_lst = text.split(" ")
 
         # stem words with PorterStemmer
-        stemmer = PorterStemmer()
+        #stemmer = PorterStemmer()
 
         for i in range(len(words_lst)):
 
             if words_lst[i] in stopwords.words("english") or words_lst[i].isnumeric():
                 words_lst[i] = ""
 
-            words_lst[i] = stemmer.stem(words_lst[i])
+            #words_lst[i] = stemmer.stem(words_lst[i])
 
         p_bar.update(1)
         return " ".join([word for word in words_lst if word != ""])
